@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .head-menu{
+            display: flex;
+        }
+        .head-menu ul{
+            display: flex;
+            list-style-type: none;
+        }
+        .head-menu{
+            justify-content: space-between;
+        }
+        .head-menu ul li{
+            margin: 20px;
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="head-menu">
+            <ul>
+                <li><i class="fa-solid fa-bars" ></i></li>
+                <li></li> <a href="#">pay</a></li>
+            </ul>
+            <ul>
+                <li><i class="fa-solid fa-comment-dots"></i></li>
+                <li><i class="fa-solid fa-bell"></i></li>
+                <li><i class="fa-solid fa-bag-shopping"></i></li>
+            </ul>
+        </div>
+        <div class="search">
+            <span>NAVER</span>
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="검색어를 입력하세요">
+                <button class="search-button">검색</button>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li class="icon-with-label">
+                <i class="fa-solid fa-envelope"></i><span>메일</span>
+            </li>
+            <li class="icon-with-label">
+                <i class="fa-solid fa-mug-saucer"></i><span>카페</span>
+            </li>
+            <li class="icon-with-label">
+                <i class="fa-solid fa-blog"></i><span>블로그</span>
+            </li>
+            <li class="icon-with-label">
+                <i class="fa-solid fa-store"></i><span>스토어</span>
+            </li>
+            <li class="icon-with-label">
+                <i class="fa-solid fa-newspaper"></i><span>뉴스</span>
+            </li>
+            <li class="icon-with-label">
+                <i class="fa-solid fa-money-bill-trend-up"></i><span>증권</span>
+            </li>
+            <li class="icon-with-label">
+                <i class="fa-solid fa-house"></i><span>부동산</span>
+            </li>
+            <li class="icon-with-label">
+                <i class="fa-solid fa-map-location-dot"></i><span>지도</span>
+            </li>
+            <li class="icon-with-label">
+                <i class="fa-solid fa-book"></i><span>웹툰</span>
+            </li>
+            <li class="icon-with-label">
+                <i class="fa-solid fa-podcast"></i><span>치지직</span>
+            </li>
+            <li class="icon-with-label">
+                <i class="fa-solid fa-plus"></i><span></span>
+            </li>
+            
+        </ul>
+    </nav>
+    <style>
+        .search{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 30px 0;
+            color: green;
+            font-size: 50px;
+        }
+        .search-container {
+            background-color: #ffffff;
+            border: 1px solid #dcdcdc;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            width: 500px;
+            height: 50px;
+            padding: 0 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            justify-content: center;
+
+        }
+        a{
+            text-decoration: none;
+            border: 3px solid black;
+            border-radius: 100%;
+            padding: 5px;
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+        }
+        /* div{
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+        } */
+        ul{
+            display: flex;
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+            gap: 10px;
+        }
+        li{
+            display: flex;
+            align-items: center;
+        }
+        .icon-with-label {
+            display: flex; /* 하위의 것 땡김*/
+            flex-direction: column;
+            font-size: 14px;
+            align-items: center;
+            text-align: center;
+            padding: 10px;
+        }
+        .icon-with-label i {
+            font-size: 24px; /* 아이콘 크기 조정*/   
+            margin-bottom: 5px;
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul{
+            display: flex;
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+        }
+    </style>
+</body>
+</html>
